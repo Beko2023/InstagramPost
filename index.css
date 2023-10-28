@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.logo {
+  width: 130px;
+  margin: 0 0 5px 10px;
+}
+
+.display-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+span,
+h3 {
+  font-family: "Source Sans 3";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.display-section {
+  margin: 10px 7px 10px 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+p {
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.van-post {
+  margin-top: 5px;
+  width: 375px;
+  height: 375px;
+}
+
+.btn {
+  display: flex;
+  align-items: left;
+}
+
+.buttons {
+  height: 23px;
+  width: 23px;
+  margin: 10px 5px 0px 5px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.likes {
+  margin: 0;
+  padding-left: 7px;
+}
+
+.comments {
+  padding-left: 7px;
+}
